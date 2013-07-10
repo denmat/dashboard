@@ -7,7 +7,20 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+  <div id="top">
+    <div class="logo">
+      <a href="/"><img alt="Operations Dashboard" height="46" src="/assets/ops.png" width="423" /></a>
+    </div>
+  </div>
+  <div id="nav_bar">
+    <ul class="nav horizontal">
+      <li>Incidents</li>
+      <li><a href="/incidents">Incident List</a></li>
+      <li><a href="/notifications">Notifications</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/feedback">Feedback</a></li>
+    </ul>
+  </div>
 <%= yield %>
 
 </body>

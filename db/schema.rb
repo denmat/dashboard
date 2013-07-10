@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130710083638) do
+ActiveRecord::Schema.define(version: 20130710122330) do
 
   create_table "hosts", force: true do |t|
     t.string  "hostname"
@@ -20,14 +20,15 @@ ActiveRecord::Schema.define(version: 20130710083638) do
 
   create_table "incidents", force: true do |t|
     t.integer  "problem_id"
-    t.string   "host_id"
-    t.string   "service_id"
-    t.string   "status_id"
+    t.integer  "host_id"
+    t.integer  "service_id"
+    t.integer  "status_id"
     t.string   "output"
-    t.string   "open"
+    t.datetime "open"
     t.string   "jira_id"
     t.string   "jira_url"
     t.string   "acknowledged_by"
+    t.datetime "closed"
     t.string   "closed_by"
     t.datetime "created_at"
     t.datetime "updated_at"

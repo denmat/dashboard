@@ -1,7 +1,5 @@
 <h1> Incidents </h1>
 <!--
-<% @incident =  { :id => '1', :problem_id => '111' }  %>
-
 <table border=1, align=left, bgcolor=rgb(240,240,240), width='100%'>
 -->
 <table border="", align=left, width=100% >
@@ -14,8 +12,9 @@
   </tr>
   <tr>
     <% @incidents.each do |incident| %>
-    <%= incident.id %>
-    <%= incident.problem_id %>
+    <td><%= incident.id %></td>
+    <td><%= incident.problem_id %></td>
+    <td><%= incident.open %></td>
     <% end %>
   </tr>
 </table>
