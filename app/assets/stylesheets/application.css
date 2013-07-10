@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 body{background-color:#FFF;font-family:Verdana,Helvetica,Arial;font-size:14px;margin:0}
 a{color:#1B97F2;text-decoration:none}
 a:hover{text-decoration:underline}
@@ -33,7 +32,7 @@ label.check_box{display:inline}
 #top .subscribe li{position:relative;margin-left:8px;font-size:12px}
 #top .subscribe li .name{display:none}
 #top .subscribe li:hover .name{display:block;position:absolute;top:-22px;left:-84px;width:200px;color:#000;text-align:center}
-#nav_bar{position:relative;padding:8px 100px;background-color:#333;border-top:solid 1px #fff;background:-webkit-gradient(linear, left top, left bottom, from(#5c5c5c), to(#111));background:-moz-linear-gradient(top, #5c5c5c, #111);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5C5C5C', endColorstr='#111111');border-bottom:solid 3px #de9f00;margin-bottom:15px}
+#nav_bar{position:relative;padding:17px 100px;background-color:#333;border-top:solid 1px #fff;background:-webkit-gradient(linear, left top, left bottom, from(#5c5c5c), to(#111));background:-moz-linear-gradient(top, #5c5c5c, #111);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5C5C5C', endColorstr='#111111');border-bottom:solid 3px #de9f00;margin-bottom:15px}
 #nav_bar .nav{float:right;padding-top:2px}
 #nav_bar .nav li{padding-left:25px;font-size:14px;color:#BBB}
 #nav_bar .nav li a{color:#FFF}
@@ -54,23 +53,14 @@ label.check_box{display:inline}
 .pagination a,.pagination em,.pagination .previous_page,.pagination .next_page{padding:4px}
 .code_block{margin:12px 0;clear:both}
 .code_header{position:relative;background-color:#E0E0E0;font-size:12px;padding:4px 7px;border:solid 1px #b6b6b6;border-bottom:none}
-.CodeRay{overflow:auto;border:1px solid #777;border-top:none;padding:5px 7px;font-size:13px;margin:0;line-height:17px}
 code{border:solid 1px #ccc;background-color:#EEE;font-family:"Menlo","Courier New","Terminal",monospace;padding:0 3px}
 pre code{display:block;background-color:#EEE;padding:5px 7px}
-.episodes{margin-right:200px}
-.unreleased{color:#D00;font-weight:bold;padding-left:5px}
-.episodes h2 .remove{font-size:14px;font-weight:normal}
-.full .episode{padding-bottom:18px;border-bottom:solid 1px #e5e5e5;margin-bottom:20px}
 .full .screenshot{float:left}
 .screenshot img{border:solid 1px #999;display:block}
 .full .main{margin-left:215px}
 .full .info{color:#999;font-size:12px}
 .full .info a{color:#999}
 .full .number{text-transform:uppercase;font-weight:bold}
-.full h2,.episode h2 a{color:#E98C08}
-.full h2 .star,.episode h2 a .star{font-size:16px;text-decoration:none;margin-left:3px}
-.full h2 .unstarred,.episode h2 a .unstarred{color:#AAA}
-.full h2 .starred,.episode h2 a .starred{color:#E98C08}
 .full h2{margin:3px 0}
 .full .description{margin-bottom:17px}
 .full .stats{font-size:11px;color:#777;font-weight:normal;padding-left:3px}
@@ -84,21 +74,8 @@ pre code{display:block;background-color:#EEE;padding:5px 7px}
 .list th{padding:5px;text-align:left;color:#777}
 .list .comment_count{color:#000}
 .list em{color:#777;padding-left:5px}
-.episodes .grid{margin-right:-30px}
-.grid .episode{float:left;margin-right:20px;margin-bottom:50px;position:relative}
-.grid .name{font-size:13px;position:absolute;top:135px;left:0}
-.grid .name .star{font-size:14px;text-decoration:none;margin-left:0}
-.grid .name .unstarred{color:#AAA}
-.grid .name .starred{color:#E98C08}
-.episodes .filters{margin-bottom:15px}
-.episodes .filter{border:solid 1px #aaa;border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px;background-color:#EEE;padding:2px 8px;margin-bottom:10px;margin-right:5px;font-size:12px}
-.episodes .filter a{padding-left:5px}
 .side{position:absolute;right:0;top:0}
 .side .banner{margin-top:15px;text-align:center}
-.episode_views{padding:0 20px;margin:0;font-weight:normal;color:#444;font-size:12px;text-align:center;border-radius:6px;-webkit-border-radius:6px;-moz-border-radius:6px;border:solid 1px #bbb;background-color:#DDD;background:-webkit-gradient(linear, left top, left bottom, from(#eee), to(#ccc));background:-moz-linear-gradient(top, #eee, #ccc);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#EEEEEE', endColorstr='#CCCCCC');margin-bottom:14px}
-.episode_views .view{padding-left:3px}
-.episode_views .view img{background-color:#FFF;background:-webkit-gradient(linear, left top, left bottom, from(#eee), to(#fff));background:-moz-linear-gradient(top, #eee, #fff);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#EEEEEE', endColorstr='#FFFFFF');padding:7px;vertical-align:middle;border:solid 1px #bbb;border-top:none;border-bottom:none}
-.episode_views .view a img{background:none;padding:2px;border:none}
 .search_option{margin-bottom:15px}
 .search_option ul{list-style:none;margin:0;padding:0;border:solid 1px #bbb;border-top:none;padding:5px 20px;border-bottom-left-radius:5px;border-bottom-right-radius:5px;-webkit-border-bottom-left-radius:5px;-webkit-border-bottom-right-radius:5px;-moz-border-radius-bottomleft:5px;-moz-border-radius-bottomright:5px}
 .search_option li{margin:5px 0;font-size:14px}
@@ -133,27 +110,6 @@ pre code{display:block;background-color:#EEE;padding:5px 7px}
 #feedback label{float:left;width:160px;text-align:right;padding-right:10px;padding-top:2px}
 #feedback .actions{padding-left:170px}
 #feedback input,#feedback textarea{font-size:14px}
-.CodeRay,.CodeRay pre{font-family:"Menlo","Courier New","Terminal",monospace;background-color:#232323;color:#E6E0DB}
-.CodeRay pre{margin:0px;padding:0px}
-.CodeRay .an{color:#e7be69}
-.CodeRay .c{color:#BC9358;font-style:italic}
-.CodeRay .ch{color:#509e4f}
-.CodeRay .cl{color:#fff}
-.CodeRay .co{color:#fff}
-.CodeRay .fl{color:#a4c260}
-.CodeRay .fu{color:#ffc56d}
-.CodeRay .gv{color:#d0cffe}
-.CodeRay .i{color:#a4c260}
-.CodeRay .il{background:#151515}
-.CodeRay .iv{color:#d0cffe}
-.CodeRay .pp{color:#e7be69}
-.CodeRay .r{color:#cb7832}
-.CodeRay .kw{color:#cb7832}
-.CodeRay .rx{color:#a4c260}
-.CodeRay .s{color:#a4c260}
-.CodeRay .sy{color:#6c9cbd}
-.CodeRay .ta{color:#e7be69}
-.CodeRay .pc{color:#6c9cbd}
 #feeds_list{border-collapse:collapse}
 #feeds_list td{border:1px solid #999;padding:4px 8px}
 #notifications{width:680px}
@@ -163,5 +119,53 @@ pre code{display:block;background-color:#EEE;padding:5px 7px}
 #notifications input[type=checkbox]{margin-left:170px}
 #notifications .check_box label{float:none;width:auto;text-align:left;padding:0;display:inline}
 #notifications .actions{padding-left:170px}
-
->>>>>>> Stashed changes
+#searchBox {
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.2);
+    position: relative;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+#searchBox input.search {
+    border: 1px solid #6E93A9;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    height: 13px;
+    padding: 2px 10px;
+    width: 200px;
+    color: #999;
+    font-weight: normal;
+}
+#searchBox input.search:focus {
+    border: 1px solid #639bcf;
+}
+#searchBox input.submit {
+    background: -webkit-gradient(linear, left top, left bottom, from(#7dbe0a), to(#a2d93f));
+    background: -moz-linear-gradient(top, #7dbe0a, #a2d93f);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#7dbe0a', endColorstr='#a2d93f');
+    color: #FFF;
+    border: 1px solid #7ec115;
+    height: 19px;
+    line-height: 14px;
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+    position: absolute;
+    right: 4px;
+    top: 3px;
+    cursor: pointer;
+ }
+ #searchBox input.submit:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(#a2d93f), to(#7dbe0a));
+    background: -moz-linear-gradient(top, #a2d93f, #7dbe0a);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#a2d93f', endColorstr='#7dbe0a');
+ }
+ #searchBox input.submit:focus,
+ #searchBox input.submit:active {
+    background: -webkit-gradient(linear, left top, left bottom, from(#7dbe0a), to(#a2d93f));
+    background: -moz-linear-gradient(top, #7dbe0a, #a2d93f);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#7dbe0a', endColorstr='#a2d93f');
+ }
