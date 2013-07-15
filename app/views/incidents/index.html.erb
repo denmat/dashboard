@@ -1,8 +1,6 @@
 <h1> Incidents </h1>
-<!--
-<table border=1, align=left, bgcolor=rgb(240,240,240), width='100%'>
--->
-<table border="", align=left, width=100% >
+
+<table >
   <tr>
     <th>incident_id</th>
     <th>problem_id</th>
@@ -14,6 +12,8 @@
     <% @incidents.each do |incident| %>
     <td><%= incident.id %></td>
     <td><%= incident.problem_id %></td>
+    <td><%= incident.host_id %></td>
+    <td><%= incident.service_id %></td>
     <td><%= incident.open %></td>
     <% end %>
   </tr>

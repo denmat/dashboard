@@ -1,10 +1,37 @@
 <h1>Welcome to the show</h1>
 <p>This is it so far</p>
+<div class='sp'>
+  <div class='tabs'>
+    <span>Open</span><span>Closed</span><span>Reports</span>
+  </div>
+  <div class='panel_container'>
+    <div class='panels'>
+      <div class='panel'>
+        <div class='panel_content'>
+          <h2>Open Incidents</h2>
+          <p>All open incidents</p>
+        </div>
+      </div>
+      <div class='panel'>
+        <div class='panel_content'>
+          <h2>Closed Incidents</h2>
+          <p>All closed incidents</p>
+        </div>
+      </div>
+      <div class='panel'>
+        <div class='panel_content'>
+          <h2>Reports Available</h2>
+          <p>Different reports available</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <div class="content">
 <div id="searchBox">
   <form action="?" method="get">
-    <input type="search" placeholder="Search" />
+    <input type="search" placeholder="Search" results=5 autosave='searchres111'/>
     <input type="submit" value="Search" />
   </form>
 </div>
