@@ -1,11 +1,8 @@
 class IncidentsController < ApplicationController
 
+  
   def index
-    @incidents = Incident.all
-    respond_to do |format|
-      format.html
-      format.json { render :json => @incident }
-    end
+    render :action => :show
   end
   def show
     @incident = Incident.find(params[:id])
@@ -15,15 +12,19 @@ class IncidentsController < ApplicationController
     end
   end
   def create
-    Incident.create(@create_hash)
+    Incident.create(params[:incident])
   end
   def delete
-    Incident.find(@id).destroy
+    Incident.find(params[:id]).destroy
   end
   def update
-    i = find(@id)
-    i.update_attributes(@attribute_hash)
+    i = find(params[:id])
+    i.update_attributes(params[:attributes])
   end
+  def edit
+  
+  end
+  
   def search
     #some search code  
   end
