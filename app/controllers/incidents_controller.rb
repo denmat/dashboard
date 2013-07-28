@@ -1,17 +1,19 @@
 class IncidentsController < ApplicationController
 
-  
   def index
+    @incidents = Incident.all
     render :action => :show
   end
   def show
-    @incident = Incident.find(params[:id])
+    @incidents = Incident.all
+    @letme = Queueit.perform_async("this", 10) 
     respond_to do |format|
       format.html
       format.json { render :json => @incident }
     end
   end
   def create
+    
     Incident.create(params[:incident])
   end
   def delete

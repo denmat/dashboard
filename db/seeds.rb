@@ -1,6 +1,6 @@
 # status data
-states = [ [ 1, 'OK' ], [ 1, 'WARNING' ], [ 2, 'CRITICAL' ] ]
-hostnames = [ [ 'app1', 1 ], [ 'app2', 2 ], [ 'web1', 3 ], [ 'db1', 4 ] ]
+states = [ 'OK', 'WARNING', 'CRITICAL' ]
+hostnames = [ 'app1', 'app2', 'web1', 'db1' ]
 services = [ 'CPU', 'DISK', 'WWW' ]
 incidents = [ {
   :problem_id       => 1,
@@ -17,12 +17,12 @@ incidents = [ {
   
 Host.delete_all
 hostnames.each do |h|
-  Host.create!(:hostname => h[0], :host_id => h[1])
+  Host.create!(:hostname => h)
 end
 
 State.delete_all
 states.each do |s|
-  State.create!(:status_id => s[0], :status => s[1])
+  State.create!(:state => s)
 end
 
 Service.delete_all

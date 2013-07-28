@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130710122330) do
+ActiveRecord::Schema.define(version: 20130728055926) do
 
   create_table "hosts", force: true do |t|
     t.string  "hostname"
@@ -38,13 +38,11 @@ ActiveRecord::Schema.define(version: 20130710122330) do
   add_index "incidents", ["problem_id"], name: "index_incidents_on_problem_id"
 
   create_table "services", force: true do |t|
-    t.string  "service"
-    t.integer "service_id"
+    t.string "service"
   end
 
   create_table "states", force: true do |t|
-    t.string  "status"
-    t.integer "status_id"
+    t.string "state"
   end
 
 end

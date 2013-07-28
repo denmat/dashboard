@@ -6,5 +6,6 @@ class Incident < ActiveRecord::Base
   validates :problem_id, :presence => true, :uniqueness => true
   validates :host_id, :presence => true
   validates :status_id, :presence => true
-    
+  belongs_to :host
+  belongs_to :service  
 end

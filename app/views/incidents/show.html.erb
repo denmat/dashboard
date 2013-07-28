@@ -1,4 +1,6 @@
 <h1>Show Incident</h1>
+Here : <%= @letme %>
+<p>Me
 
 <table>
   <tr>
@@ -9,10 +11,12 @@
     <th>status</th>
   </tr>
   <tr>
-    <td><%= @incident.incident_id %></td>
-    <td><%= @incident.problem_id %></td>
-    <td><%= @incident.host %></td>
-    <td><%= @incident.service %></td>
-    <td><%= @incident.status %></td>
+    <% @incidents.each do |incident| %>
+      <td><%= incident.id %></td>
+      <td><%= incident.problem_id %></td>
+      <td><%= incident.host %></td>
+      <td><%= incident.service %></td>
+      <td><%= incident.status_id %></td>
+    <% end %>
   </tr>
 </table>
